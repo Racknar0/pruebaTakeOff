@@ -1,9 +1,6 @@
-body {
+* {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
