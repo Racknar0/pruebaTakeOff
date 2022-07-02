@@ -81,7 +81,7 @@ const Header = () => {
                             src={Logo}
                             alt="Logo"
                         />
-                    <img alt="imagenLogo" ref={imgRef} width='100px' height='50px' src={Logo} className='text-primary d-md-none me-auto AddImg'/>
+                    <img alt="imagenLogo" ref={imgRef} width='100px' height='40px' src={Logo} className='text-primary d-md-none me-auto AddImg'/>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={handleClick} >
                         <span className="toggler-icon top-bar"></span>
                         <span className="toggler-icon middle-bar"></span>
@@ -93,34 +93,25 @@ const Header = () => {
                     >
                         
                         <ul className="navbar-nav ms-auto mb-4 mb-lg-0 text-center">
-                            <li className="nav-item">
-                                <NavLink className="nav-link" href="/" > BECAS </NavLink>
+                            <li className="nav-item ">
+                                <NavLink activeClassName="active" className="nav-link" href="/" > BECAS </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" href="/"> FESTIVAL DE CINE </NavLink>
+                                <NavLink activeClassName="active" className="nav-link" href="/"> <span className='activa'>FESTIVAL DE CINE</span> </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" href="/"> PELICULAS </NavLink>
+                                <NavLink  activeClassName="active" className="nav-link" href="/"> PELICULAS </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" href="/"> A TI y A TI </NavLink>
+                                <NavLink  activeClassName="active" className="nav-link" href="/"> A TI y A TI </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" href="/"> MASTER class </NavLink>
+                                <NavLink  activeClassName="active" className="nav-link" href="/"> MASTER class </NavLink>
                             </li>
                         </ul>
                     </div>
                 </div>
             </NavStyled>
-
-
-
-
-
-
-
-
-
         </div>
     );
 };
