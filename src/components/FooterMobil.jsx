@@ -53,8 +53,8 @@ const FooterMobil = () => {
     <div>
         <FooterStyled>
             <ImgLogo src={LOGOFOOTER} alt="" />
-            <Text className='text-white mt-4 mb-0'>Ligia Leon, Area Manager</Text>
-            <Text className='text-white'>Lleon@directv.com</Text>
+            <Text className='text-white mt-4 mb-0 text-center'>Ligia Leon, Area Manager</Text>
+            <Text className='text-white text-center'>Lleon@directv.com</Text>
 
             <a href="/" className='text-decoration-none'><Text className='text-white mt-4 mb-0'>Calendario</Text></a>
             <a href="/" className='text-decoration-none'><Text className='text-white mb-0'>Socios</Text></a>
